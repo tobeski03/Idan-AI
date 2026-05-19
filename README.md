@@ -2,7 +2,7 @@
 
 Idan AI is an Android phone assistant built to live close to the device: chat, voice, notifications, Gmail, Google Docs, Google Sheets, WhatsApp workflows, and Shizuku-backed automation.
 
-This public repository is for **APK releases only**. The application source code and server secrets are not published here.
+This public repository is for **APK releases only**.
 
 ## Download
 
@@ -107,6 +107,7 @@ This protects the shared AI API key from uncontrolled use.
 - The APK does not contain the Gemini API key.
 - The APK does not contain the Google OAuth client secret.
 - Model requests go through the Idan backend.
+- Your details are stored locally on your device. Not the backend.
 - Google OAuth token exchange happens server-side.
 - The Android app only stores the connection data needed to use your account features.
 
